@@ -8,7 +8,7 @@ The design document remains the source of truth for ship identity, combat role, 
 
 ## Cycle Goal
 
-Create a playable first version of the Toranaga class that can be loaded by Starsector, viewed in refit, deployed in combat, and used as the foundation for later tuning.
+Create a playable first version of the Toranaga class under the dedicated `mod/` directory that can be loaded by Starsector, viewed in refit, deployed in combat, and used as the foundation for later tuning.
 
 ## Scope
 
@@ -57,6 +57,7 @@ Tasks:
 - Inspect top-level mod files.
 - Identify existing `data`, `graphics`, `jars`, and CSV structure.
 - Determine whether this repo already contains a valid Starsector mod skeleton.
+- Keep the workspace root separate from the deployable Starsector mod root.
 - Identify package naming conventions if Java is present.
 
 Deliverable:
@@ -68,13 +69,13 @@ Deliverable:
 Tasks:
 
 - Locate the reference Filament sprite.
-- Create or stage `graphics/ships/toranaga.png`.
+- Create or stage `mod/graphics/ships/toranaga.png`.
 - Keep the first-pass asset readable in Starsector even if it is not final art.
 - Preserve approximate 300x380 proportions unless the mod structure suggests another scale.
 
 Deliverable:
 
-- `graphics/ships/toranaga.png`
+- `mod/graphics/ships/toranaga.png`
 
 Acceptance criteria:
 
@@ -86,14 +87,14 @@ Acceptance criteria:
 
 Tasks:
 
-- Create `data/hulls/toranaga.ship`.
+- Create `mod/data/hulls/toranaga.ship`.
 - Define cruiser hull size, sprite, bounds, center, shield, engines, weapon slots, and two launch bays.
 - Use the design stats as first-pass targets.
 - Avoid copying the Filament slot map directly.
 
 Deliverable:
 
-- `data/hulls/toranaga.ship`
+- `mod/data/hulls/toranaga.ship`
 
 Acceptance criteria:
 
@@ -106,14 +107,14 @@ Acceptance criteria:
 
 Tasks:
 
-- Add the Toranaga row to `data/hulls/ship_data.csv`.
+- Add the Toranaga row to `mod/data/hulls/ship_data.csv`.
 - Use baseline values from `doc/toranaga_design.md`.
 - Select an available ship system for the first pass if the custom `Gravitic Command Matrix` is deferred.
 - Add built-in hullmods supported by existing game IDs.
 
 Deliverable:
 
-- Updated `data/hulls/ship_data.csv`
+- Updated `mod/data/hulls/ship_data.csv`
 
 Acceptance criteria:
 
@@ -125,14 +126,14 @@ Acceptance criteria:
 
 Tasks:
 
-- Create `data/variants/toranaga_elite.variant`.
+- Create `mod/data/variants/toranaga_elite.variant`.
 - Fit weapons compatible with the selected slot types.
 - Fit two wings.
 - Add vents, capacitors, and hullmods consistent with the flagship role.
 
 Deliverable:
 
-- `data/variants/toranaga_elite.variant`
+- `mod/data/variants/toranaga_elite.variant`
 
 Acceptance criteria:
 
@@ -149,7 +150,7 @@ Tasks:
 
 Deliverable:
 
-- Updated description or string data file, likely `data/strings/descriptions.csv`.
+- Updated description or string data file, likely `mod/data/strings/descriptions.csv`.
 
 Acceptance criteria:
 

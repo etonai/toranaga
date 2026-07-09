@@ -258,14 +258,15 @@ Recommended target sprite dimensions:
 
 Expected implementation files may include:
 
-- `data/hulls/toranaga.ship`
-- `data/variants/toranaga_elite.variant`
-- `data/hulls/ship_data.csv`
-- `data/strings/descriptions.csv`
-- `graphics/ships/toranaga.png`
-- `graphics/hullmods/toranaga_prototype_core.png`
-- `jars/src/.../ToranagaPrototypeCore.java`
-- `jars/src/.../GraviticCommandMatrixStats.java`
+- `mod/mod_info.json`
+- `mod/data/hulls/toranaga.ship`
+- `mod/data/variants/toranaga_elite.variant`
+- `mod/data/hulls/ship_data.csv`
+- `mod/data/strings/descriptions.csv`
+- `mod/graphics/ships/toranaga.png`
+- `mod/graphics/hullmods/toranaga_prototype_core.png`
+- `mod/jars/src/.../ToranagaPrototypeCore.java`
+- `mod/jars/src/.../GraviticCommandMatrixStats.java`
 
 The exact Java package and CSV schema should be chosen after inspecting the existing mod structure.
 
