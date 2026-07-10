@@ -85,7 +85,7 @@ These values are first-pass implementation targets and can be adjusted after in-
 | Shield type | Omni | Primary defensive identity. |
 | Shield arc | 360 | Full coverage, flagship-grade. |
 | Shield efficiency | 0.45 | Very efficient, intentionally exceptional. |
-| Shield upkeep | 250 | Low enough to feel advanced. |
+| Shield upkeep | 0.05 | Extremely low upkeep multiplier; intended to feel advanced. |
 | Supplies/month | 12 | Efficient for performance. |
 | Supplies/recovery | 28 | Powerful but not punitive. |
 | Fuel/ly | 3 | Exploration flagship economy. |

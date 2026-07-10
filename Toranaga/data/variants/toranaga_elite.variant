@@ -16,7 +16,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "tachyonlance",
-        "WS0002": "plasma",
+        "WS0002": "hil",
         "WS0003": "autopulse"
       }
     },
@@ -34,19 +34,19 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "heavyblaster",
-        "WS0007": "heavyblaster",
-        "WS0008": "ionbeam"
+        "WS0006": "pulselaser",
+        "WS0007": "pulselaser",
+        "WS0008": "gravitonbeam"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0009": "burstpd",
-        "WS0010": "burstpd",
-        "WS0011": "burstpd",
-        "WS0012": "burstpd",
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser",
+        "WS0012": "pdlaser",
         "WS0013": "pdlaser",
         "WS0014": "pdlaser",
         "WS0015": "pdlaser",
