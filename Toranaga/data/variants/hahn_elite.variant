@@ -1,0 +1,44 @@
+{
+    "displayName":  "Elite",
+    "fluxCapacitors":  10,
+    "fluxVents":  10,
+    "hullId":  "hahn",
+    "hullMods":  [
+                     "hardenedshieldemitter",
+                     "stabilizedshieldemitter",
+                     "unstable_injector"
+                 ],
+    "permaMods":  [
+
+                  ],
+    "goalVariant":  true,
+    "variantId":  "hahn_elite",
+    "weaponGroups":  [
+                         {
+                             "autofire":  false,
+                             "mode":  "LINKED",
+                             "weapons":  {
+                                             "WS0001":  "atropos",
+                                             "WS0002":  "atropos"
+                                         }
+                         },
+                         {
+                             "autofire":  false,
+                             "mode":  "LINKED",
+                             "weapons":  {
+                                             "WS0003":  "heavyblaster"
+                                         }
+                         },
+                         {
+                             "autofire":  true,
+                             "mode":  "LINKED",
+                             "weapons":  {
+                                             "WS0004":  "ioncannon",
+                                             "WS0005":  "ioncannon"
+                                         }
+                         }
+                     ],
+    "wings":  [
+
+              ]
+}
