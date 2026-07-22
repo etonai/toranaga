@@ -1,0 +1,45 @@
+{
+    "displayName":  "Elite",
+    "fluxCapacitors":  20,
+    "fluxVents":  30,
+    "hullId":  "brianstokesmitchell",
+    "hullMods":  [
+                     "targetingunit",
+                     "stabilizedshieldemitter",
+                     "eccm"
+                 ],
+    "permaMods":  [
+
+                  ],
+    "goalVariant":  true,
+    "variantId":  "brianstokesmitchell_elite",
+    "weaponGroups":  [
+                         {
+                             "autofire":  false,
+                             "mode":  "ALTERNATING",
+                             "weapons":  {
+                                             "WS0001":  "sabotpod",
+                                             "WS0004":  "sabotpod"
+                                         }
+                         },
+                         {
+                             "autofire":  true,
+                             "mode":  "LINKED",
+                             "weapons":  {
+                                             "WS0005":  "pdburst",
+                                             "WS0006":  "pdburst"
+                                         }
+                         },
+                         {
+                             "autofire":  true,
+                             "mode":  "LINKED",
+                             "weapons":  {
+                                             "WS0002":  "ioncannon",
+                                             "WS0003":  "ioncannon"
+                                         }
+                         }
+                     ],
+    "wings":  [
+
+              ]
+}
